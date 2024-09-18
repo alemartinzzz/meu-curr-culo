@@ -1,0 +1,90 @@
+/* Definindo o estilo básico da página */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #2C3E50, #4CA1AF); /* Fundo azul escuro */
+    color: #FFF;
+    height: auto; /* Altera para altura automática */
+    min-height: 100vh; /* Garante que o fundo ocupe apenas o necessário */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+/* Estilizando o contêiner */
+.container {
+    width: 90%; 
+    max-width: 700px;  
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; /* Adiciona um espaço superior */
+    margin-bottom: 20px; /* Adiciona um espaço inferior */
+}
+
+/* Estilizando a foto de perfil */
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #4CA1AF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    object-fit: cover;
+}
+
+/* Estilizando os títulos e o texto */
+h1, .tagline, p, h2, ul {
+    margin: 10px 0;
+    color: #333;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.tagline {
+    font-size: 18px;
+}
+
+h2 {
+    color: #2C3E50;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* Seções */
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    font-size: 16px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #2C3E50;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 12px;
+    margin: 0;
+}
