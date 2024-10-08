@@ -1,29 +1,27 @@
-/* Definindo o estilo básico da página */
+/* Estilos básicos para a página */
 body, html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to bottom, #2C3E50, #4CA1AF); /* Fundo azul escuro */
     color: #FFF;
-    height: auto; /* Altera para altura automática */
-    min-height: 100vh; /* Garante que o fundo ocupe apenas o necessário */
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     box-sizing: border-box;
 }
 
-/* Estilizando o contêiner */
+/* Estilizando o container */
 .container {
-    width: 90%; 
-    max-width: 700px;  
+    width: 90%;
+    max-width: 700px;
     background: rgba(255, 255, 255, 0.95);
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     padding: 20px;
     text-align: center;
-    margin-top: 20px; /* Adiciona um espaço superior */
-    margin-bottom: 20px; /* Adiciona um espaço inferior */
+    margin: 20px 0;
 }
 
 /* Estilizando a foto de perfil */
@@ -32,11 +30,11 @@ body, html {
     height: 150px;
     border-radius: 50%;
     border: 5px solid #4CA1AF;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     object-fit: cover;
 }
 
-/* Estilizando os títulos e o texto */
+/* Estilos de texto e títulos */
 h1, .tagline, p, h2, ul {
     margin: 10px 0;
     color: #333;
@@ -48,6 +46,7 @@ h1 {
 
 .tagline {
     font-size: 18px;
+    color: #555;
 }
 
 h2 {
@@ -56,36 +55,37 @@ h2 {
     margin-top: 20px;
 }
 
-/* Seções */
+/* Estilizando as seções */
 section {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin-bottom: 20px;
 }
 
-/* Listas */
+/* Estilizando as listas */
 ul {
     list-style-type: none;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 
 li {
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 /* Estilo do rodapé */
 footer {
     background-color: #2C3E50;
-    padding: 5px;
+    padding: 10px;
     border-radius: 0 0 10px 10px;
 }
 
 footer p {
     color: #FFF;
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
 }
 
